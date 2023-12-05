@@ -119,4 +119,4 @@ document.getElementById("calculate").onclick = function () {
  
   var text = document.getElementById("text").innerHTML=num1+operator+num2+"="+result;
 }
-})
+});
