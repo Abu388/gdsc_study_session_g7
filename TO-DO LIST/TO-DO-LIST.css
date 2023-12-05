@@ -14,7 +14,7 @@ body{
   }
   
   ul li {
-    position: relative; /* Set li to relative positioning */
+    position: relative;
     padding:5px;
     margin-bottom: 10px;
     background-color:darkblue;
@@ -24,9 +24,8 @@ body{
   ul li span {
     position: absolute;
     top: 50%;
-    left: 93%; /* Position to the right of the li */
-    transform: translate(-50%, -50%); /* Center span vertically and horizontally */
-    
+    left: 93%; 
+    transform: translate(-50%, -50%); 
     font-size: 13px;
     color: #555;
     border-radius: 50px;
