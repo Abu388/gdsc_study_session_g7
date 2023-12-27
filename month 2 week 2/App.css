@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0
+}
+form{
+  display:flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  row-gap: 5px;
+  width:50%;
+  justify-content:center;
+}
+.main-topic, .sub-topic{
+  border: none;
+  padding: 10px;
+}
+.main-topic:focus{
+  outline: none;
+  border-bottom: 4px solid rgba(47, 30, 30, 0.92);
+  transition: 0.2s ease-in-out;
+  padding: 15px;
+}
+.sub-topic:focus{
+  outline:rgb(23, 23, 140);
+  
+  border-bottom: 2px dotted rgba(74, 41, 41, 0.92);
+  transition: 0.5s ease-in-out;
+  padding: 15px;
+}
+legend{
+  font-size:25px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}
+button{
+  border: none;
+  width: 70px;
+  padding: 7px;
+  font-family: Tahoma;
+  font-weight: 600;
+  font-size: 35px;
+  background-color: rgb(85, 85, 228);
+  color: white;
+  align-self: center;
+  border-radius: 15px;
+}
+button:hover{
+  opacity: 0.9;
+}
+.Content{
+  padding: 8px;
+}
