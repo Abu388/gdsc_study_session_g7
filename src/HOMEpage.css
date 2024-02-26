@@ -1,0 +1,38 @@
+
+.allItems{
+    display: inline-block;
+    margin: 80px;
+    background-color: aquamarine;
+}
+.allItems:hover{
+    box-shadow: 50px 40px 35px rgba(20, 12, 3, 7) ;
+}
+.images{
+border-color: aqua;
+box-shadow: 5px 3px 2px rgba(20, 12, 3, 5) ; 
+}
+.all{
+    background: linear-gradient(30deg, black 15%, white 33%, black 33%, white 66%, black 66%, white 100%,yellow 22%,yellow);
+    margin-top: 0px;
+}
+
+.items{
+    color: red;
+}
+.AddButton{
+    color:lime;
+    background-color: black;
+}
+.AddButton:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 3px 2px rgba(20, 12, 3, 5) ; 
+}
+.AddButton:active{
+    background-color: red;
+}
+.opening{
+    color:lime;
+    margin-left: 490px;
+    color:yellow;
+}

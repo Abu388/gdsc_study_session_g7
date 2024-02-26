@@ -1,65 +1,112 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+p{ 
+  display: inline-block;
+  margin: 155px;
+  
+}
+.all{
+  margin-bottom: 0px;
+}
+.HOMEpage{
+  color: red;
+ 
+}
+.k{
+  margin-left: 100px;
+
+}
+.NavBar{
+  background-color: black;
+  
+  margin-bottom: 0px;
+  
+}
+.info{
+  color: yellowgreen;
+}
+.allItems{
+  display: inline-block;
+  margin: 80px;
+  background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .shopping-cart {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.products {
+  display: flex;
+  
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.product button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product button:hover {
+  background-color: #0056b3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cart {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
-.card {
-  padding: 2em;
+.cart h2 {
+  margin-bottom: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 5px;
+}
+.links{
+  margin: 300px;
+  color: red;
 } */
-body{
-  background-color: black;
-}
-.App{
-  margin-top:0px;
-  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  background-color: white;
-}
-.list{
-  
-  background-color:rgb(226, 221, 221);
- width: 100px;
- box-shadow: 2px 2px 4px 2px rgba(192, 59, 59, 0.2);
- color:darkgreen ;
-border-color: red;
-}
-.opening{
-  box-shadow: 2px 2px 4px 3px rgba(222, 4, 4, 0.2);
-  color: rgb(6, 125, 125);
-  background-color: aqua;
-}
-
